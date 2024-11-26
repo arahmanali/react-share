@@ -11,7 +11,7 @@
     "require": "./dist/index.cjs"
   },
   "sideEffects": false,
-  "files": ["*"],
+  "files": ["dist"],
   "scripts": {
     "build": "vite build",
     "build-demo": "vite build --config vite.demo.config.js",
